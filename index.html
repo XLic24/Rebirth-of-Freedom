@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rebirth of Freedom</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    /* General Styles */
+    body {
+      background-color: #f8f9fa;
+      font-family: 'Poppins', sans-serif;
+      line-height: 1.7;
+    }
+
+    h1, h2, h3 {
+      color: #003366;
+      font-weight: 700;
+    }
+
+    .section {
+      background: #fff;
+      border-radius: 12px;
+      padding: 40px;
+      margin-bottom: 30px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      background: #003366;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      margin-top: 40px;
+    }
+
+    /* Newspaper images */
+    .newspaper-img, .book-img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    }
+
+    /* Background image section (Rebirth of Freedom) */
+    .bg-image {
+      background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRF6hmuMvyhgZAZmKMML7szZWY19Ie8wmvcXQm476JzrVQzsnuw51UkymjQnXlSWCy-yrQ&usqp=CAU');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      border-radius: 12px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    }
+
+    .bg-image h2 {
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 20px 40px;
+      border-radius: 10px;
+    }
+
+    /* Make both columns equal height */
+    .equal-columns {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .equal-columns > div {
+      display: flex;
+      flex-direction: column;
+    }
+
+    @media (max-width: 768px) {
+      .equal-columns {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header class="text-center py-4 bg-primary text-white">
+    <h1>Rebirth of Freedom</h1>
+  </header>
+
+  <div class="container my-5">
+
+    <!-- ABOUT & REBIRTH OF FREEDOM (Equal Columns) -->
+    <div class="row equal-columns align-items-stretch mb-5">
+      <div class="col-md-6 d-flex">
+        <div class="section flex-fill">
+          <h2>About</h2>
+          <p>
+            The rebirth of Filipino literature from 1946 to 1970 followed the country's independence, 
+            highlighting an increase in newspapers and the return of writers. 
+            It lists significant literary works from this period, including notable poems, novels, and awards that inspired Filipino authors. 
+            The emergence of Tagalog literature was also noted alongside the establishment of the Palanca Memorial Awards for Literature in 1950.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-md-6 d-flex">
+        <div class="bg-image flex-fill">
+        </div>
+      </div>
+    </div>
+
+    <!-- HISTORICAL BACKGROUND -->
+    <div class="section">
+      <h2>Historical Background</h2>
+      <p>
+        The Americans returned in 1945. Filipinos rejoiced and guerrillas who fled to the mountains joined the liberating American Army. 
+        On July 4, 1946, the Philippines regained its freedom and the Filipino flag waved joyously alone. The chains were broken.
+      </p>
+    </div>
+
+    <!-- NEWSPAPERS -->
+    <div class="section">
+      <h2>Notable Newspapers</h2>
+      <div class="row text-center">
+        <div class="col-md-4 mb-4">
+          <img src="https://philippinepresshistory.wordpress.com/wp-content/uploads/2015/05/untitled13.png" alt="Bulletin" class="newspaper-img mb-2">
+          <p><b>Bulletin</b><br>by Menzi</p>
+        </div>
+
+        <div class="col-md-4 mb-4">
+          <img src="https://img.newspapers.com/img/img?user=8163722&id=25677613&clippingId=77978873&width=820&height=766&crop=30_77_3721_3480&rotation=0" alt="Morning Sun" class="newspaper-img mb-2">
+          <p><b>Morning Sun</b><br>by Sergio Osmeña Sr.</p>
+        </div>
+
+        <div class="col-md-4 mb-4">
+          <img src="https://rocesfamily.com/sm2002/rocesphils/images/manilatimes.jpg" alt="Manila Times" class="newspaper-img mb-2">
+          <p><b>Manila Times</b><br>by Joaquin Roces</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- NOTABLE WORKS WITH PICTURES -->
+    <div class="section">
+      <h2>Notable Literary Works</h2>
+      <div class="row text-center">
+        <div class="col-md-4 mb-4">
+          <img src="https://pictures.abebooks.com/inventory/31776141653.jpg" alt="Heart of the Islands" class="book-img mb-2">
+          <p><b>Heart of the Islands (1947)</b><br>by Manuel Viray</p>
+        </div>
+        <div class="col-md-4 mb-4">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgTgpcGHoGeLyK_OU8PbLGHJhihDJGJmtOZA&s" alt="Philippine Cross Section" class="book-img mb-2">
+          <p><b>Philippine Cross Section (1950)</b><br>by Maximo Ramos & Florentino Valeros</p>
+        </div>
+        <div class="col-md-4 mb-4">
+          <img src="https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1267659573i/6469282.jpg" alt="Prose and Poems" class="book-img mb-2">
+          <p><b>Prose and Poems (1952)</b><br>by Nick Joaquin</p>
+        </div>
+        <div class="col-md-6 mb-4">
+          <img src="https://www.philippinebooks.com/cdn/shop/files/103_1a726876-0eec-4d95-ae2e-0e9513fb23e6.jpg?v=1754352082" alt="Philippine Writing" class="book-img mb-2">
+          <p><b>Philippine Writing (1953)</b><br>by T.D. Agcaoili</p>
+        </div>
+        <div class="col-md-6 mb-4">
+          <img src="https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1556903913i/45446220.jpg" alt="Have Come, Am Here" class="book-img mb-2">
+          <p><b>Have Come, Am Here</b><br>by Jose Garcia Villa</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- NOVELS -->
+    <div class="section">
+      <h2>Novels and Short Stories in English</h2>
+      <p>
+        Writers began producing longer pieces. Stevan Javellana’s <b>Without Seeing the Dawn</b> depicts the grim war experiences under Japanese occupation.
+      </p>
+      <p>
+        In 1946, the <b>PEN Center of the Philippines</b> was inaugurated. Francisco Arcellana published his <i>PEN Anthology of Short Stories</i>. 
+        Later, Kerima Polotan’s <b>The Hand of the Enemy</b> (1961) and Luis V. Teodoro Jr.’s <b>The Adversary</b> (1968) gained recognition.
+      </p>
+    </div>
+
+    <!-- NEW FILIPINO LITERATURE -->
+    <div class="section">
+      <h2>The New Filipino Literature</h2>
+      <p>
+        During the Japanese occupation, literature in Tagalog revived. 
+        Newspapers and magazines like <b>Bulaklak, Liwayway, Ilang-Ilang,</b> and <b>Sinagtala</b> reopened, 
+        giving hope and meaning through writing.
+      </p>
+      <h5>Five Selected Books:</h5>
+      <ul>
+        <li><b>Mga Piling Katha</b> (1947–48) by Alejandro Abadilla</li>
+        <li><b>Ang Maikling Kuwentong Tagalog</b> (1886–1948) by Teodoro Agoncillo</li>
+        <li><b>Mga Piling Sanaysay</b> (1952) by Alejandro Abadilla</li>
+        <li><b>Ako’y Isang Tinig</b> (1952) by Genoveva Edroza-Matute</li>
+        <li><b>Maikling Katha ng Dalawampung Pangunahing Author</b> (1962) by A.G. Abadilla & Ponciano E.P. Pineda</li>
+      </ul>
+    </div>
+
+    <!-- PALANCA AWARDS -->
+    <div class="section">
+      <h2>The Palanca Awards</h2>
+      <p><b>Established:</b> 1950<br>
+         <b>Founder:</b> Carlos Palanca Sr.<br>
+         Known as the “Pulitzer Prize of the Philippines,” it inspires Filipino writers to create excellent works in both English and Filipino.
+      </p>
+      <h5>Significance:</h5>
+      <ul>
+        <li>Encourages nationalism and creativity.</li>
+        <li>Promotes Philippine literature locally and internationally.</li>
+        <li>Continues to honor writers annually.</li>
+      </ul>
+
+      <h5>First Palanca Awardees (1950–1951)</h5>
+      <ul>
+        <li><b>Kuwento ni Mabuti</b> – Genoveva Edroza</li>
+        <li><b>Mabangis na Kamay, Maamong Kamay</b> – Pedro S. Dandan</li>
+        <li><b>Planeta, Buwan at mga Bituin</b> – Elpidio P. Kapulong</li>
+      </ul>
+    </div>
+
+  </div>
+
+  <footer>
+    <p>© Jolo, et. al. | ENPHIL130 | Midterm Output 2025</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
